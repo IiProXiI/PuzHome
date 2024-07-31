@@ -48,7 +48,7 @@
         <h1>مطلوب منك ارقام فقط</h1>
         <p>:</p>
         <p>ايش رأيك تحط الرقم هنا؟</p>
-        <input type="text" id="numberInput" placeholder="أدخل الرقم هنا" required>
+        <input type="text" id="numberInput" placeholder="حط الرقم هنا" required>
         <button onclick="checkNumber()">شيك</button>
         <p id="result"></p>
     </div>
@@ -60,6 +60,7 @@
 
             if (numberInput === '006107') {  // الرقم الصحيح
                 resultElement.textContent = 'ماتوقعت تجيبها الصراحة, صح عليك';
+                resultElement.textContent = 'ibarqiseeyou@gmail.com';
             } else {
                 resultElement.textContent = 'ايش ابغى بالارقام ذي شفلك غيرها';
             }
