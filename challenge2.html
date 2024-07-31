@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تحدي الأرقام</title>
+    <title>مايحتاج تتذكر شئ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #ff7e5f, #feb47b); /* تدرج ألوان للخلفية */
+            background: linear-gradient(to right, #cfe2f3, #3d85c6); /* تدرج ألوان للخلفية */
             color: #333;
             text-align: center;
         }
@@ -44,9 +44,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>تحدي الأرقام</h1>
-        <p>حل اللغز التالي:</p>
-        <p>ما هو الرقم الصحيح؟</p>
+        <h1>مطلوب منك ارقام</h1>
+        <p>:</p>
+        <p>ايش رأيك تحط الرقم هنا؟</p>
         <input type="text" id="numberInput" placeholder="أدخل الرقم هنا" required>
         <button onclick="checkNumber()">تحقق</button>
         <p id="result"></p>
@@ -57,10 +57,10 @@
             var numberInput = document.getElementById('numberInput').value.trim();
             var resultElement = document.getElementById('result');
 
-            if (numberInput === '0632') {  // الرقم الصحيح
-                resultElement.textContent = 'تهانينا! لقد حللت اللغز.';
+            if (numberInput === '006107') {  // الرقم الصحيح
+                resultElement.textContent = 'ماتوقعت تجيبها الصراحة, صح عليك';
             } else {
-                resultElement.textContent = 'الرقم غير صحيح. حاول مرة أخرى.';
+                resultElement.textContent = 'ايش ابغى بالارقام ذي شفلك غيرها';
             }
         }
     </script>
